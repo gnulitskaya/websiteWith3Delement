@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation with Three.js</title>
+</head>
+<body>
+
+    <h1>Creating strange things with three.js</h1>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+        html, body {
+            background-color: black;
+            color: white;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+        }
+        h1 {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            min-width: 300px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 2rem;
+            font-size: 5rem;
+            height: 100vh;
+            z-index: 1;
+        }
+        canvas {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    </style>
+    <script src='three.js'></script>
+    <script src='main.js'></script>
+</body>
+</html>
